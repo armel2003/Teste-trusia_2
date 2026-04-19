@@ -22,10 +22,10 @@ blocks = {
 LARGEUR_MAX = 90
 
 def print_block(lines):
-    # On filtre uniquement les phrases à afficher
+    
     visible_lines = [line["text"].lower() for line in lines if line["show"]]
 
-    # Si aucune ligne à afficher, on ne fait rien
+    
     if not visible_lines:
         return
 
